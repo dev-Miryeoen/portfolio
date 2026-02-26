@@ -22,6 +22,7 @@ const Work = () => {
                     <li><a className="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.2s">Web Design</a></li>
                     <li><a className="wow fadeInUp" href="#" data-filter=".publish" data-wow-delay="0.4s">Publish</a></li>
                     <li><a className="wow fadeInUp" href="#" data-filter=".frontend" data-wow-delay="0.6s">Frontend</a></li>
+                    <li><a className="wow fadeInUp" href="#" data-filter=".fullstack" data-wow-delay="0.6s">FullStack</a></li>
                     </ul>
                 </div>
                 </div>
@@ -80,6 +81,15 @@ const Work = () => {
                     <div className="work-do">디자인 및 퍼블리싱</div>
                     <div className="work-tech">HTML, CSS, javascript, jquery</div>
                     <div className="work-comment">제작기간 1달, 레퍼런스 사이트는 네이처 리퍼블릭이며 퍼블리싱 기술을 익히고 처음 참여한 팀프로젝트입니다. javascript와 jquery로 Dom의 애니메이션을 제어하였습니다.</div>
+                    </div></a></li>
+                <li className="work-item webdesign fullstack"><a href="https://github.com/dev-Miryeoen/team2_project_fork" target='_blank'>
+                    <div className="work-image"><img src="assets/images/work-13.jpg" alt="Portfolio Item"/></div>
+                    <div className="work-caption font-alt">
+                    <h3 className="work-title">Roov<span>팀 프로젝트</span></h3>
+                    <div className="work-descr">메인 / 채팅 / 검색결과 / 물품상세 / 개인페이지 / 알림</div>
+                    <div className="work-do">디자인 / 퍼블리싱 / 프론트 / 백엔드</div>
+                    <div className="work-tech">HTML, CSS, javascript, spring boot, STOMP, web push</div>
+                    <div className="work-comment">제작기간 1달, 레퍼런스 사이트는 당근마켓, 아이템매니아 입니다. 전반적인 디자인과 실시간채팅, 웹푸시를 이용한 알림기능, 설명에 적힌 페이지를 메인으로 담당하였습니다만 팀장으로서 페이지 전반에 걸쳐 조금씩 기능을 손보았습니다.</div>
                     </div></a></li>
             </ul>
         </section>

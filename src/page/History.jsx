@@ -82,7 +82,7 @@ const History = () => {
                     </div>
                     <div className="hBox">
                         <h3>2024.05</h3>
-                        <p>팀프로젝트 eggbnb 제작 시작</p>
+                        <p>팀프로젝트 eggbnb 시작</p>
                     </div>
                     <div className="hBox">
                         <h3>2024.07</h3>
@@ -91,6 +91,30 @@ const History = () => {
                     <div className="hBox">
                         <h3>2024.07</h3>
                         <p>팀프로젝트 eggbnb 완료</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2025.02</h3>
+                        <p>웹개발 사설학원 강의 수강</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2025.08</h3>
+                        <p>웹개발 사설학원 강의 수료</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2025.08</h3>
+                        <p>[디지털컨퍼런스]공공데이터 융합 풀스택 개발자 양성과정Ⅰ 수강<br/>(832시간)</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2026.01</h3>
+                        <p>팀프로젝트 Roov 시작</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2026.02</h3>
+                        <p>팀프로젝트 Roov 완료</p>
+                    </div>
+                    <div className="hBox">
+                        <h3>2026.02</h3>
+                        <p>[디지털컨퍼런스]공공데이터 융합 풀스택 개발자 양성과정Ⅰ 수료<br/>(832시간)</p>
                     </div>
                 </motion.div>
             </div>

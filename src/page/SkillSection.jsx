@@ -1,4 +1,5 @@
-import { faCss3Alt, faFigma, faGitAlt, faGithub, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3Alt, faFigma, faGitAlt, faGithub, faHtml5, faJava, faJs, faReact, faVuejs } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faLeaf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
 import React from 'react';
@@ -106,6 +107,34 @@ const SkillSection = () => {
                             <div className="features-icon"><FontAwesomeIcon icon={faGithub} /></div>
                             <h3 className="features-title font-alt">git hub</h3>
                             <p>레포지토리를 이용한 프로젝트의 공유 및 저장이 가능합니다.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-6">
+                        <div className="features-item">
+                            <div className="features-icon"><FontAwesomeIcon icon={faDatabase} /></div>
+                            <h3 className="features-title font-alt">DBMS</h3>
+                            <p>SQL문 활용이 가능합니다.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-6">
+                        <div className="features-item">
+                            <div className="features-icon"><FontAwesomeIcon icon={faVuejs} /></div>
+                            <h3 className="features-title font-alt">Vue.js</h3>
+                            <p>Vue.js를 사용해본 경험이 있습니다.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-6">
+                        <div className="features-item">
+                            <div className="features-icon"><FontAwesomeIcon icon={faJava} /></div>
+                            <h3 className="features-title font-alt">Java</h3>
+                            <p>Java만을 이용한 게임을 만들어본 경험이 있습니다.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-6">
+                        <div className="features-item">
+                            <div className="features-icon"><FontAwesomeIcon icon={faLeaf} /></div>
+                            <h3 className="features-title font-alt">Spring boot</h3>
+                            <p>프로젝트를 진행해본 경험이 있습니다.</p>
                         </div>
                     </div>
                 </motion.div>
